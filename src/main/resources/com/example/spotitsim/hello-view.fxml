@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spotitsim.HelloController">
+   <children>
+      <Label fx:id="numSymbolsLabels" layoutX="606.0" layoutY="99.0" prefHeight="17.0" prefWidth="164.0" text="Total Number of Symbols: 0" />
+      <Label fx:id="numTotalCardsLabel" layoutX="606.0" layoutY="64.0" prefHeight="17.0" prefWidth="164.0" text="Total Number of Cards: 0" />
+      <Label fx:id="numSymbolsPerCardLabel" layoutX="606.0" layoutY="31.0" prefHeight="17.0" prefWidth="164.0" text="Symbols Per Card: 0" />
+      <Button fx:id="nextButton" layoutX="26.0" layoutY="27.0" mnemonicParsing="false" onAction="#Spawn" prefHeight="25.0" prefWidth="69.0" text="Next" />
+
+   </children>
+</AnchorPane>
